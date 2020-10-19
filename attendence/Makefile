@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -I ./include/ ../debug/
-
+LIBS = 
 CFILES = $(shell find -name "*c")
 OBJS = $(CFILES:.c=.o)
 
